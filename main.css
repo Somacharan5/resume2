@@ -1,0 +1,179 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the resume container */
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #94d3ee; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the title section */
+.title-section {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the name inside the title section */
+.title-section h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+}
+
+/* Style the contact information section */
+.contact-info {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc; /* Light gray border on top */
+}
+
+/* Style individual contact info items */
+.contact-info p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333; /* Dark gray text */
+}
+
+/* Style the sections with blue boxes */
+.achievements,
+.experience,
+.education,
+.hobbies,
+.vision {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #007bff; /* Blue background */
+    border-radius: 5px;
+    color: #fff; /* White text */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Add a hover effect to the blue boxes */
+.achievements:hover,
+.experience:hover,
+.education:hover,
+.hobbies:hover,
+.vision:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the section headings */
+.achievements h2,
+.experience h2,
+.education h2,
+.hobbies h2,
+.vision h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style the content within the sections */
+.achievements p,
+.experience p,
+.education p,
+.hobbies p,
+.vision p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+/* Apply styles to the circular frame */
+.circular-frame {
+    width: 200px; /* Adjust the size of the circular frame as needed */
+    height: 200px; /* Should be equal to the width for a perfect circle */
+    border-radius: 50%; /* Create a circular shape */
+    overflow: hidden; /* Hide the image overflow outside the circular frame */
+    margin: 0 auto; /* Center the circular frame */
+    border: 3px solid #007bff; /* Border around the circular frame */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+}
+
+/* Style the image within the circular frame */
+.circular-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element dimensions */
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333; /* Dark background color for the footer */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 20px 0; /* Add padding to the top and bottom of the footer */
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Social links */
+.social-links a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+    margin: 0 10px; /* Add spacing between links */
+}
+
+/* Style links on hover */
+.social-links a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+/* Header styles */
+.header {
+    background: linear-gradient(90deg, #6600cc, #85ff33); /* Purple gradient for the header */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+}
+
+.logo img {
+    width: 80px; /* Adjust the logo size as needed */
+    
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navigation a:hover {
+    color: #ff00ff; /* Change color on hover */
+}
